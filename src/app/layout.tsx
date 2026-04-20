@@ -1,6 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import { FireIcon } from '@heroicons/react/24/solid' // Import ikon dari Heroicons
+import { Bars3CenterLeftIcon } from "@heroicons/react/24/solid"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,11 +17,11 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
               
-              {/* Logo */}
+              {/* Tombol Menu & Logo */}
               <div className="flex items-center gap-2">
-                <FireIcon className="h-8 w-8 text-orange-500" />
+                <Bars3CenterLeftIcon className="h-8 w-8 text-orange-500" />
                 <span className="text-xl font-bold tracking-tight text-slate-900 dark text-white">
-                  MyProject
+                  Game Shop
                 </span>
               </div>
 
