@@ -13,13 +13,13 @@ export default function RootLayout({
     <html lang="id">
       <body className={inter.className}>
         {/* --- Bagian Header Mulai --- */}
-        <header className="sticky top-0 w-full border-b border-border">
+        <header className="sticky p-2 top-0 w-full border-b border-border">
             <div className="flex justify-between items-center h-16">
               
               {/* Tombol Menu & Logo */}
               <div className="flex items-center gap-2">
                 <Bars3Icon className="icons" />
-                <span className="text-xl font-bold tracking-tight text-slate-900">
+                <span className="text-xl font-bold tracking-tight text-slate-900 text-foreground">
                   Torishu
                 </span>
               </div>
