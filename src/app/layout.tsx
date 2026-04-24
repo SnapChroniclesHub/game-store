@@ -13,14 +13,13 @@ export default function RootLayout({
     <html lang="id">
       <body className={inter.className}>
         {/* --- Bagian Header Mulai --- */}
-        <header className="sticky top-0 z-50 w-full backdrop-blur-md border-b border-slate-200 dark:bg-slate-900/80 dark:border-slate-800">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <header className="sticky top-0 w-full border-b border-border">
             <div className="flex justify-between items-center h-16">
               
               {/* Tombol Menu & Logo */}
               <div className="flex items-center gap-2">
                 <Bars3Icon className="icons" />
-                <span className="text-xl font-bold tracking-tight text-slate-900 dark text-white">
+                <span className="text-xl font-bold tracking-tight text-slate-900 text-primary-300">
                   Torishu
                 </span>
               </div>
@@ -31,7 +30,6 @@ export default function RootLayout({
               </div>
 
             </div>
-          </div>
         </header>
         {/* --- Bagian Header Selesai --- */}
 
