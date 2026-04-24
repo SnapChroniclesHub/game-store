@@ -19,14 +19,20 @@ export default function RootLayout({
               {/* Tombol Menu & Logo */}
               <div className="flex items-center gap-2">
                 <Bars3Icon className="icons" />
-                <span className="text-xl font-bold tracking-tight text-slate-900 text-primary-300">
+                <span className="text-xl font-bold tracking-tight text-slate-900">
                   Torishu
                 </span>
               </div>
 
-              {/* Tombol search */}
+              {/* Tombol Search & ( Profile || Login / Register ) */}
               <div className="flex items-center gap-4">
                 <MagnifyingGlassIcon className="icons" />
+                
+                <div class="flex items-center gap-4 text-sm font-medium text-slate-600 dark:text-slate-300">
+                  <button class="hover:text-blue-600 transition-colors">Register</button>
+                  <span class="text-slate-300 dark:text-slate-700">|</span>
+                  <button class="hover:text-blue-600 transition-colors">Login</button>
+                </div>
               </div>
 
             </div>
