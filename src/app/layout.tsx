@@ -14,12 +14,12 @@ export default function RootLayout({
       <body className={inter.className}>
         {/* --- Bagian Header Mulai --- */}
         <header className="sticky p-2 top-0 w-full border-b border-border">
-            <div className="flex justify-between items-center h-16">
+            <div className="flex justify-between items-center">
               
               {/* Tombol Menu & Logo */}
               <div className="flex items-center gap-2">
                 <Bars3Icon className="icons" />
-                <span className="text-xl font-bold tracking-tight text-slate-900 text-foreground">
+                <span className="text-xl font-bold tracking-tight text-foreground">
                   Torishu
                 </span>
               </div>
