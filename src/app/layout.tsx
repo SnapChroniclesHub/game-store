@@ -1,6 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import { Bars3CenterLeftIcon } from "@heroicons/react/24/solid"
+import { Bars3Icon } from "@heroicons/react/24/solid"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +19,7 @@ export default function RootLayout({
               
               {/* Tombol Menu & Logo */}
               <div className="flex items-center gap-2">
-                <Bars3CenterLeftIcon className="h-8 w-8 text-orange-500" />
+                <Bars3Icon className="h-8 w-8 text-orange-500" />
                 <span className="text-xl font-bold tracking-tight text-slate-900 dark text-white">
                   Game Shop
                 </span>
