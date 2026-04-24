@@ -10,10 +10,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="id">
       <body className={inter.className}>
         {/* --- Bagian Header Mulai --- */}
-        <header className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-slate-200 dark:bg-slate-900/80 dark:border-slate-800">
+        <header className="sticky top-0 z-50 w-full bg-background backdrop-blur-md border-b border-slate-200 dark:bg-slate-900/80 dark:border-slate-800">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
               
@@ -21,16 +21,9 @@ export default function RootLayout({
               <div className="flex items-center gap-2">
                 <Bars3Icon className="h-8 w-8 text-orange-500" />
                 <span className="text-xl font-bold tracking-tight text-slate-900 dark text-white">
-                  Game Shop
+                  Torishu
                 </span>
               </div>
-
-              {/* Navigasi (Desktop) */}
-              <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600 dark:text-slate-300">
-                <a href="#" className="hover:text-orange-500 transition-colors">Home</a>
-                <a href="#" className="hover:text-orange-500 transition-colors">Projects</a>
-                <a href="#" className="hover:text-orange-500 transition-colors">About</a>
-              </nav>
 
               {/* Tombol Aksi */}
               <div className="flex items-center gap-4">
